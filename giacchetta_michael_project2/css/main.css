@@ -1,8 +1,9 @@
 body{
 	background-image: url("../img/frisbee-main004.jpg");
 	background-repeat:no-repeat;
-	background-position: 0 50%;
+	background-position: 35% 50%;
 	background-attachment:fixed;
+	background-color: #647678;
 	font-family: arial, veranda, sans-serif;
 }
 
@@ -10,7 +11,7 @@ body{
 	width:100%;
 	margin: 0;
 	border: 1px solid #000;
-	background: #efefef;
+	background: #9FBCBF;
 	border-radius: 4px;
 }
 
@@ -36,7 +37,7 @@ nav {
 nav li {
 	display:inline-block;
 	margin: 2px;
-	padding: 4px;
+	padding: 4px 30px 4px 4px;
 	font-size: 1.2em;
 }
 
@@ -51,12 +52,12 @@ a:hover {
 }
 
 a:visited {
-color:rgba(159, 44, 165, 1);
+	color:rgba(159, 44, 165, 1);
 
 }
 
 a:active {
-color: #000;
+	color: #000;
 
 }
 
@@ -67,7 +68,7 @@ p {
 }
 
 ol li {
-list-style-type: upper-alpha;
+	list-style-type: upper-alpha;
 }
 
 #fill {
@@ -80,32 +81,40 @@ list-style-type: upper-alpha;
 
 #bod {
 	width:100%;
-	margin: 0 auto;
-	padding: 1px 5px 5px 5px;
-	background-color: rgba(255, 255, 255, 0.93);
+	margin: 0;
+	padding: 1px 5px 5px 1px;
+	background-color: rgba(213, 251, 255, 0.91);
 }
 
 #figs {
 	width:100%;
 	margin: 0 auto;
 	padding: 1px 5px 5px 5px;
-	background-color: #fff;
+	background-color: rgba(213, 251, 255, 1);
 }
 
 figure img {
-box-shadow: 2px 2px 5px #f00;
+	box-shadow: 2px 2px 5px #4BB5C1;
 }
 
 figcaption {
-text-shadow: 4px 4px 10px #f00;
+	text-shadow: 4px 4px 10px #4BB5C1;
 }
-
-
 
 footer {
+	width: 100%;
 	text-align:center;
-	border-top: 2px solid #000;
+	border-top: 2px solid #2F3738;
 }
+
+footer a:visited {
+	color: #91C46C; 
+}
+
+footer a:hover {
+	border-bottom: 2px solid #000;
+}
+
 
 footer li {
 	display:inline;
