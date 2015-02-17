@@ -5,10 +5,10 @@ body{
 	background-attachment:fixed;
 	background-color: #647678;
 	font-family: arial, veranda, sans-serif;
-	width: 100%;
+	width: 98%;
 }
 
-/* Start top of the page */
+/*----- Start top of the page ------*/
 #top {
 	width:100%;
 	margin: 0;
@@ -43,9 +43,9 @@ nav li {
 	font-size: 1.2em;
 }
 
-/* end top of page selectors */
+/*---- end top of page selectors -----*/
 
-/* all anchor tag selectors here */ 
+/*--- all anchor tag selectors here ---*/ 
 a {
 	text-decoration: none;
 	color: rgba(44, 94, 165, 1);
@@ -88,14 +88,30 @@ ol li {
 	margin: 0;
 	padding: 1px 5px 5px 1px;
 	background-color: rgba(213, 251, 255, 0.91);
+	overflow: hidden;
+}
+
+.golfone {
+	width: 98%;
+	margin: 3px;
+}
+
+.golftwo {
+	width: 35%;
+	margin: .2%;
+	margin-right: 12%;
+	padding: 1.5%;
+	float: right;
+	background-color: rgba(213, 251, 255, 1);
 }
 
 #figs {
-	width:100%;
-	margin: 0 auto;
+	width:45%;
 	padding: 1px 5px 5px 5px;
 	background-color: rgba(213, 251, 255, 1);
+	float: left;
 }
+
 
 figure img {
 	box-shadow: 2px 2px 5px #4BB5C1;
@@ -110,10 +126,11 @@ footer {
 	width: 100%;
 	text-align:center;
 	border-top: 2px solid #2F3738;
+	overflow:hidden;
 }
 
 footer a {
-color: #00b2ff;
+	color: #00b2ff;
 }
 
 footer a:visited {
