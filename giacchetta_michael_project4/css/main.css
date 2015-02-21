@@ -144,6 +144,16 @@ figcaption {
 	text-shadow: 4px 4px 10px #4BB5C1;
 }
 
+#tables {
+	width:30%;
+	float: left;
+}
+
+th {
+	text-align:left;
+	border: 1px solid #000;
+}
+
 
 /*-- footer defines bottom nav bar --*/
 footer {
