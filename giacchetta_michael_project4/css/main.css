@@ -46,6 +46,7 @@ nav {
 }
 
 nav ul {
+	width: 80%;
 	border-bottom: 2px solid #000; 
 }
 
@@ -118,7 +119,7 @@ ol li {
 	width: 97%;
 	margin: .8%;
 	padding-bottom:2.5%;
-	font-family: lato;
+	font-family: lato, veranda, sans-serif;
 }
 
 .golf2 {
@@ -144,17 +145,44 @@ figcaption {
 	text-shadow: 4px 4px 10px #4BB5C1;
 }
 
+/* Here is the the disc type table  */
 #tables {
-	width:30%;
+	width:45%;
+	margin-left: 4.5%;
 	float: left;
 }
 
-th {
-	text-align:left;
-	border: 1px solid #000;
+table {
+	border-collapse:separate ;
+	font-size: 1.2em;
+	border: 2px double #000;
+	background:rgba(255, 0, 149, 1) ;
+	border-spacing: 5px;
 }
 
+th {
+	text-transform: uppercase;
+}
 
+th, td {
+	border: 1px solid #000;
+	margin: .8%; 
+	padding: 5px;
+	text-align: center;
+	
+}
+
+.even{
+	background-color: #efefef;
+}
+
+.even:hover {
+ background-color: rgba(0, 251, 255, 0.63);
+}
+	
+
+
+/*-- end of form selectors --*/
 /*-- footer defines bottom nav bar --*/
 footer {
 	width: 100%;
@@ -190,4 +218,59 @@ footer li {
 	width: 100%;
 	margin: 2%;
 	padding-right:2%;
+}
+
+
+/*---- all form classes are below  -----*/
+
+/*--- here are all the bottom form selectors ---*/
+
+
+form {
+	width: 50%;
+	font-size: .9em;
+	margin: 10px;
+	padding:6px;
+	background-color:#efefef;
+	float:left;
+}
+
+input:focus {
+	background-color: #000;
+
+}
+
+#add:hover {
+	background: linear-gradient(#a8cfce, #beeae9);
+}
+
+#add {
+	color: #444444:
+	text-shadow: .5px .5px #fff;
+	border-bottom: 1px solid #b2b2b2;
+	background-color: linear-gradient(#beeae9 #a8cfce);
+	cursor: pointer;
+}	
+	/* end of buttons */
+
+input:hover{
+	background-color: #d0e2f0;
+	border: 1px solid #999;
+}
+
+input:focus {
+	background-color: #d0e2f0;
+	border: 1px solid #999;
+} 
+
+
+#form1 {
+	width: 15%;
+	border-radius: 2px;
+	margin: .5%;
+	float:right;
+}
+
+feildset {
+overflow:hidden;
 }

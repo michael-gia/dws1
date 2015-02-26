@@ -13,7 +13,12 @@
   	<div id="logo">
   	<img src="img/logo.gif" alt="logo" />
   	</div>
-  	
+  	<!-- form is for top right search bar in header -->
+  		<form action="https://www.google.com/search" method="get" class="search" id="form1">
+				<label>Search:</label> 
+				<input type="search" name="search" placeholder="Enter Keyword" />
+		</form>
+  
   		<nav>
   			<ul>
   				<li><a href="#top">Home</a></li>
@@ -22,6 +27,9 @@
   				<li><a href="mailto:michael.gia@fullsail.edu">Contact</a></li>
   			</ul>
   		</nav>
+  		
+  		
+
   		<h1>Frisbee Golf 101</h1>
   	</header>
   	
@@ -84,32 +92,80 @@
 			</figure>
 		
 		</article> <!-- end of figures -->
-		
-		<section id="tables">
+		<!-- table for disc types nested inside #tables -->
+		<div id="tables">
 			<table>
-						<tr>
-							<th colspan="2">Disc Types</th>
-						</tr>
-						<tr>
-							<th>Distance Driver:</th>
-							<td>11:00 AM - 9:00 PM</td>
-						</tr>
-						<tr class="even">
-							<th>Mid-Range:</th>
-							<td>11:00 AM - 9:00 PM</td>
-						</tr>
-						<tr>
-							<th>Putter:</th>
-							<td>11:00 AM - 9:00 PM</td>
-						</tr>
-						<tr class="even">
-							<th>Multi-Purpose:</th>
-							<td>11:00 AM - 9:00 PM</td>
-						</tr>
+				<tr>
+					<th colspan="2">Disc Types</th>
+				</tr>
+				<tr>
+					<th>Distance Driver:</th>
+					<td>Distance Drivers were created to provide players with the maximum distance possible.</td>
+				</tr>
+				<tr class="even">
+					<th>Mid-Range:</th>
+					<td>Mid-Range Discs are designed to provide accuracy and control for a wide variety of shots. These versatile discs are effective in many situations, from drives and mid-range shots, to approaches and even putting.</td>
+				</tr>
+				<tr>
+					<th>Putter:</th>
+					<td>Putt and Approach discs are designed specifically for putting and making short controlled upshots.</td>
+				</tr>
+				<tr class="even">
+					<th>Multi-Purpose:</th>
+					<td>Specialty Discs are designed for use in unique Disc Golf situations and for other flying disc sports and games.</td>
+				</tr>
 			</table>
-		</section>
-	</div> <!-- bod2 close -->
-</div> <!-- bod close -->
+		</div>
+		<form action="http://example.com/join.php" method="post" id="register" >
+		<fieldset>
+			<legend>Subscribe to our news letter:</legend>
+			<p id="name">
+				<label>Your name:</label>
+				<input type="text" name="name" class="title"  required /><br />
+				<label>Your email:</label>
+				<input type="text" name="email" id="email" class="title" required />
+			</p>
+			<p id="birth">
+				<label>Birthday Month:</label>
+				<select name="months">
+					<option>Select one</option>
+					<option value="1">January</option>
+					<option value="2">February</option>
+					<option value="3">March</option>
+					<option value="4">April</option>
+					<option value="5">May</option>
+					<option value="6">June</option>
+					<option value="7">July</option>
+					<option value="8">August</option>
+					<option value="8">September</option>
+					<option value="10">October</option>
+					<option value="11">November</option>
+					<option value="12">December</option>
+				</select>
+			</p>
+			<p id="animal"><label>Please select what animal(s) you like:</label>
+				<label>cat</label>
+				<input type="checkbox" name="cat" value="cat" />
+				<label>dog</label>
+				<input type="checkbox" name="dog" value="dog" />
+				<label>snorlax</label>
+				<input type="checkbox" name="snorlax" value="snorlax" />
+			</p>
+				<p>Gender:(optional)
+				<label>Male:</label>
+				<input type="radio" name="set" value="male" />
+				<label>Female:</label>
+				<input type="radio" name="set" value="female" />
+				</p>
+				<label>Additional Comments:</label><br />
+				<textarea name="comments">Enter your comments...</textarea>				
+			<!-- Start of bottom form -->
+				<input type="submit" value="Register" id="add" />
+		</fieldset>
+		</form>
+		
+		</div> <!-- /form -->
+	</div> <!-- /bod2 -->
 	
 		<footer id="bottom">
 			<ul>
